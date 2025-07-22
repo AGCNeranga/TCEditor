@@ -1,2 +1,1 @@
-# TCEditor
-Tipping Copy Editor
+
