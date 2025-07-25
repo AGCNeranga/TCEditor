@@ -336,7 +336,7 @@
       }
     });
 
-    const specialWords = ['today', 'yesterday', 'tomorrow'];
+    const specialWords = ['today', 'yesterday', 'tomorrow','Saturday'];
     specialWords.forEach(word => {
       const escapedWord = escapeRegex(word);
       const regex = new RegExp(`(?<!<strong[^>]*?>)(\\b${escapedWord}\\b)`, 'gi');
